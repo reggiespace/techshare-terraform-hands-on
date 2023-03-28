@@ -8,6 +8,6 @@ locals {
 }
 
 resource "local_file" "resource_info" {
-  filename = "resource_info"
+  filename = "resource_info.txt"
   content  = local.content
 }
